@@ -75,6 +75,8 @@ float computePrecise(const std::string& _result, const std::string& _groundTruth
         if(areaDiff/(areaSum-areaDiff)  >= 0.5)
             rightNum++;
     }
+
+
     printf("frame= %d",framNum);
     return rightNum/framNum;
 
